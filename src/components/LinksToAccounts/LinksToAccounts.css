@@ -1,0 +1,9 @@
+.links-to-accounts {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.links-to-accounts__link>img {
+  height: 2rem;
+  width: 2rem;
+}

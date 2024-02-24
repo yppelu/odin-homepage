@@ -1,0 +1,119 @@
+.about-me-section {
+  overflow: hidden;
+  position: relative;
+  padding: 1rem;
+}
+
+.about-me-section__background {
+  background-color: #0891B2;
+  box-shadow: 0 0 8px #565656;
+  transform: rotate(-10deg);
+
+  position: absolute;
+  top: -50%;
+  right: -50%;
+  left: -100%;
+  bottom: 20%;
+  z-index: -1;
+}
+
+.about-me-section__content {
+  display: flex;
+  align-items: center;
+
+  position: relative;
+}
+
+.about-me-section__photo {
+  box-shadow: 0 0 8px #565656;
+  transform: translateY(1px);
+
+  width: 30%;
+}
+
+.about-me-section__photo>img {
+  width: 100%;
+}
+
+.about-me-section__name {
+  font-family: "Playfair Display", Georgia, serif;
+  color: #FFFFFF;
+  font-size: min(3cqw, 2.6rem);
+
+  display: flex;
+  justify-content: center;
+
+  position: absolute;
+  bottom: 0;
+
+  width: 30%;
+}
+
+.about-me-section__description {
+  background-color: #FFFFFF;
+  box-shadow: 0 0 8px #565656;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  padding: 1rem;
+  width: 70%;
+}
+
+.about-me-section__title {
+  color: #000000;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.75rem;
+  font-weight: 500;
+}
+
+@media (max-width: 780px) {
+  .about-me-section__name {
+    font-size: 2rem;
+
+    justify-content: flex-end;
+
+    top: 0;
+    right: 0;
+
+    width: 100%;
+  }
+
+  .about-me-section__photo {
+    width: 50%;
+  }
+
+  .about-me-section__description {
+    margin-top: 4rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .about-me-section__background {
+    bottom: 55%;
+  }
+
+  .about-me-section__content {
+    flex-direction: column;
+  }
+
+  .about-me-section__name {
+    color: #000000;
+    font-size: min(10cqw, 2rem);
+    justify-content: center;
+    height: max-content;
+    width: 100%;
+  }
+
+  .about-me-section__photo {
+    width: 100%;
+  }
+
+  .about-me-section__description {
+    background-color: transparent;
+    box-shadow: none;
+    margin-top: 0;
+    width: 100%;
+  }
+}

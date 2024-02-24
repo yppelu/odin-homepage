@@ -16,6 +16,15 @@
   font-weight: 400;
 }
 
+@font-face {
+  font-family: "Playfair Display";
+  src: url("/fonts/PlayfairDisplay-Medium.woff2") format("woff2");
+  font-stretch: normal;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+}
+
 *,
 *::before,
 *::after {
@@ -79,6 +88,7 @@ body {
 }
 
 body {
+  color: #565656;
   font-family: "Roboto", Arial, sans-serif;
   font-size: 1rem;
   font-weight: 400;
@@ -92,4 +102,8 @@ body {
   margin-right: 1rem;
   max-width: 1200px;
   width: 100%;
+}
+
+.main-heading {
+  font-size: 0;
 }
