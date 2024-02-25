@@ -10,7 +10,7 @@ export default function ContactMe() {
         <p className='contact-me__paragraph'>
           Please get in touch if you think our work can be mutually beneficial!
         </p>
-        <p className='contact-me__paragraph' aria-label='Address'>
+        <p className='contact-me__paragraph'>
           1234 Random Road
           <br />
           Random Town, California, 12345
@@ -25,14 +25,14 @@ export default function ContactMe() {
           <svg className='contact-me__info-icon' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#FFFFFF'>
             <path d='M22 6C22 4.9 21.1 4 20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6M20 6L12 11L4 6H20M20 18H4V8L12 13L20 8V18Z' />
           </svg>
-          ashleywilliams.is.not.real@gmail.com
+          this.is.not.real@gmail.com
         </p>
         <LinksToAccounts />
       </div>
       <picture className='contact-me__picture'>
         <source media='(max-width:500px)' srcSet='/images/contact-me_mobile.jpg' />
         <source media='(max-width:800px)' srcSet='/images/contact-me_tablet.jpg' />
-        <img src='/images/contact-me_desktop.jpg' alt='Ashley Williams' />
+        <img src='/images/contact-me_desktop.jpg' alt='Me' />
       </picture>
     </footer>
   );
