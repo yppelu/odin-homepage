@@ -1,6 +1,6 @@
 .links-to-accounts {
   display: flex;
-  gap: 0.5rem;
+  gap: 1rem;
 
   height: max-content;
   width: max-content;

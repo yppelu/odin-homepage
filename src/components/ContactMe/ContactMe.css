@@ -1,0 +1,54 @@
+.contact-me {
+  background-color: #0891B2;
+  color: #FFFFFF;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+
+  padding: 1rem;
+}
+
+.contact-me__info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-me__title {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.75rem;
+  font-weight: 400;
+}
+
+.contact-me__paragraph {
+  display: flex;
+  align-items: center;
+  gap: 1ch;
+}
+
+.contact-me__info-icon {
+  height: 1.5rem;
+}
+
+.contact-me__picture {
+  width: 55%;
+}
+
+.contact-me__picture>img {
+  width: 100%;
+}
+
+@media (max-width: 500px) {
+  .contact-me {
+    flex-direction: column;
+  }
+
+  .contact-me__info {
+    width: 100%;
+  }
+
+  .contact-me__picture {
+    width: 100%;
+  }
+}
