@@ -68,7 +68,7 @@
   font-weight: 500;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 800px) {
   .about-me-section__name {
     font-size: 2rem;
 

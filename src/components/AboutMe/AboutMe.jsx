@@ -9,7 +9,7 @@ export default function AboutMe() {
       <div className='about-me-section__content'>
         <picture className='about-me-section__photo'>
           <source media='(max-width:500px)' srcSet='/images/about-me_mobile.jpg' />
-          <source media='(max-width:780px)' srcSet='/images/about-me_tablet.jpg' />
+          <source media='(max-width:800px)' srcSet='/images/about-me_tablet.jpg' />
           <img src='/images/about-me_desktop.jpg' alt='Ashley Williams' />
         </picture>
         <p className='about-me-section__name'>Ashley Williams</p>

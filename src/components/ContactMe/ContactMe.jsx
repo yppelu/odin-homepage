@@ -31,7 +31,7 @@ export default function ContactMe() {
       </div>
       <picture className='contact-me__picture'>
         <source media='(max-width:500px)' srcSet='/images/contact-me_mobile.jpg' />
-        <source media='(max-width:780px)' srcSet='/images/contact-me_tablet.jpg' />
+        <source media='(max-width:800px)' srcSet='/images/contact-me_tablet.jpg' />
         <img src='/images/contact-me_desktop.jpg' alt='Ashley Williams' />
       </picture>
     </footer>

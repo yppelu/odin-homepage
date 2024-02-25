@@ -11,10 +11,6 @@ export default function MyWork() {
         <ProjectCard />
         <ProjectCard />
         <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
       </div>
     </section>
   );
