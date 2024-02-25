@@ -1,0 +1,53 @@
+.project-card {
+  background-color: #FFFFFF;
+  box-shadow: 0 0 8px #565656;
+
+  height: max-content;
+}
+
+.project-card__image-container {
+  background-color: #9E1C1C;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 200px;
+}
+
+.project-card__image-container>p {
+  color: #FFFFFF;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.project-card__description {
+  padding: 1rem;
+  height: 40%;
+}
+
+.project-card__header {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 0.5rem;
+}
+
+.project-card__title {
+  color: #000000;
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 500;
+}
+
+.project-card__project-links {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.project-card__project-link {
+  height: 1.5rem;
+  width: 1.5rem;
+}

@@ -114,6 +114,11 @@
     background-color: transparent;
     box-shadow: none;
     margin-top: 0;
+    padding: 1rem 0 0 0;
     width: 100%;
+  }
+
+  .about-me-section__title {
+    text-align: center;
   }
 }
